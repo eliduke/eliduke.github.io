@@ -1,0 +1,10 @@
+title:        Eli Duke
+tagline:      "A Digital Home on the Digital Interwebs"
+description:  ""
+url:          http://eliduke.com
+author:
+  name:       'Eli Duke'
+  email:      'elimduke@gmail.com'
+markdown:     rdiscount
+permalink:    pretty
+highlighter:  pygments

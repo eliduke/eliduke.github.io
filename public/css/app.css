@@ -1,0 +1,165 @@
+.half {
+  width: 49%;
+  float:left;
+}
+
+.row .half:first-of-type {
+  margin-right: 2%;
+}
+
+img {
+  max-width:100%;
+  height:auto;
+}
+
+a:hover {
+  text-decoration:none;
+}
+
+.masthead {
+  background-color: #C23F38;
+}
+
+.masthead a:hover {
+  color: #333;
+}
+
+.website {
+  margin-bottom: 50px;
+}
+
+ul.colophon-links li {
+  font-size: 20px;
+}
+
+.content h1 {
+  margin-bottom: 20px;
+  color: #C23F38;
+}
+
+#home {
+  margin-top: 15px;
+}
+
+#web-design h2 a {
+  color: #333;
+}
+
+.content h1 a {
+  color: #C23F38;
+}
+
+.content h1 a:hover {
+  color: #F06560;
+}
+
+#footer {
+  border-top: 10px solid #eee;
+  padding-top: 30px;
+  margin-top: 50px;
+}
+
+#footer img {
+  margin-right: 20px;
+  width: 25%;
+  float:left
+}
+
+p.lead {
+  font-size: 18px;
+}
+
+.cols {
+  border: none;
+}
+
+#footer .cols {
+  margin-top: 40px;
+  padding-top: 20px;
+  border-top: 10px solid #eee;
+}
+
+.col {
+  float: left;
+  width: 33%;
+}
+
+#footer ul, #resume ul {
+  list-style-type: none;
+  margin-bottom: 20px;
+  padding: 0;
+}
+#footer ul li {
+  text-align:right;
+}
+
+#footer .col:first-of-type ul li {
+  text-align: left;
+}
+
+#blog #posts {
+  list-style-type: none;
+  padding: 0;
+}
+
+#blog #posts .post h1 {
+}
+
+#blog #posts .post p {
+  margin: 0 0 20px 0;
+}
+
+@media (max-width: 768px) {
+  #photography .row {
+    display: none;
+  }
+}
+
+@media (max-width: 990px) {
+
+  .masthead-inner h1 {
+    margin-bottom: 0;
+  }
+
+  p.lead {
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+  }
+
+  ul.colophon-links li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 20px 0 0;
+    margin: 0 0 0 0;
+    font-size: 15px;
+  }
+
+  #home {
+    margin-top: 0;
+  }
+
+  #footer .col {
+    float: none;
+    display: block;
+    width: 100%;
+  }
+
+  #footer ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+
+  #footer ul li {
+    display: inline-block;
+  }
+
+  #footer ul li::after {
+    content:" \00bb";
+  }
+
+  #footer ul li:last-of-type::after {
+    content:"";
+  }
+}
