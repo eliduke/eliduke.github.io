@@ -1,6 +1,6 @@
 .half {
   width: 49%;
-  float:left;
+  float: left;
 }
 
 .row .half:first-of-type {
@@ -14,10 +14,15 @@ img {
 
 a:hover {
   text-decoration:none;
+  color: #FA5416;
+}
+
+.content {
+  max-width: 1170px;
 }
 
 .masthead {
-  background-color: #C23F38;
+  background-color: #FA5416;
 }
 
 .masthead a:hover {
@@ -34,7 +39,7 @@ ul.colophon-links li {
 
 .content h1 {
   margin-bottom: 20px;
-  color: #C23F38;
+  color: #FA5416;
 }
 
 #home {
@@ -46,11 +51,11 @@ ul.colophon-links li {
 }
 
 .content h1 a {
-  color: #C23F38;
+  color: #FA5416;
 }
 
 .content h1 a:hover {
-  color: #F06560;
+  color: #333;
 }
 
 #footer {
@@ -109,20 +114,32 @@ p.lead {
   margin: 0 0 20px 0;
 }
 
+#photography .text-block {
+  margin: 40px 0;
+}
+
 @media (max-width: 768px) {
   #photography .row {
     display: none;
   }
+  #stickers .half {
+    float: none;
+    display: block;
+    width: 100%;
+  }
 }
 
-@media (max-width: 990px) {
+@media (max-width: 989px) {
 
   .masthead-inner h1 {
     margin-bottom: 0;
   }
 
   p.lead {
-    font-size: 15px;
+    display: none;
+  }
+
+  .colophon {
     margin: 0;
     padding: 0;
   }
@@ -135,7 +152,7 @@ p.lead {
     font-size: 15px;
   }
 
-  #home {
+  .content {
     margin-top: 0;
   }
 
