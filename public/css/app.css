@@ -7,6 +7,19 @@
   margin-right: 2%;
 }
 
+.third {
+  width: 32%;
+  float: left;
+}
+
+.row .third {
+  margin-right: 2%;
+}
+
+.row .third:last-of-type {
+  margin-right: 0;
+}
+
 img {
   max-width:100%;
   height:auto;
@@ -116,6 +129,9 @@ p.lead {
 
 #photography .text-block {
   margin: 40px 0;
+}
+
+@media (max-width: 500px) {
 }
 
 @media (max-width: 768px) {
