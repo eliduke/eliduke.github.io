@@ -1,9 +1,25 @@
+---
+---
+
+$color: #EA2869;
+
 /*
 #FA5416
 #9542C2
 #EA2869
 #01ACB4
 */
+
+/* LINK STYLEZ */
+
+a:hover {
+  text-decoration:none;
+  color: $color;
+}
+
+.masthead a:hover {
+  color: #333;
+}
 
 .half {
   width: 49%;
@@ -32,50 +48,25 @@ img {
   height:auto;
 }
 
-a:hover {
-  text-decoration:none;
-  color: #FA5416;
-}
-
 .content {
   max-width: 1170px;
 }
 
 .masthead {
-  background-color: #FA5416;
-}
-
-.masthead a:hover {
-  color: #333;
+  background-color: $color;
 }
 
 .website {
   margin-bottom: 50px;
 }
 
-ul.colophon-links li {
-  font-size: 20px;
-}
-
 .content h1 {
   margin-bottom: 20px;
-  color: #FA5416;
+  color: $color;
 }
 
 #home {
   margin-top: 15px;
-}
-
-#web-design h2 a {
-  color: #333;
-}
-
-.content h1 a {
-  color: #FA5416;
-}
-
-.content h1 a:hover {
-  color: #333;
 }
 
 #footer {
@@ -91,7 +82,7 @@ ul.colophon-links li {
 }
 
 p.lead {
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .cols {
@@ -114,7 +105,9 @@ p.lead {
   margin-bottom: 20px;
   padding: 0;
 }
+
 #footer ul li {
+  font-size: 15px;
   text-align:right;
 }
 
@@ -127,9 +120,6 @@ p.lead {
   padding: 0;
 }
 
-#blog #posts .post h1 {
-}
-
 #blog #posts .post p {
   margin: 0 0 20px 0;
 }
@@ -138,28 +128,37 @@ p.lead {
   margin: 40px 0;
 }
 
-@media (max-width: 500px) {
-}
+@media (max-width: 600px) {
 
-@media (max-width: 768px) {
   #photography .row {
     display: none;
   }
+
   #stickers .half {
     float: none;
     display: block;
     width: 100%;
   }
-}
 
-@media (max-width: 989px) {
-
-  .masthead-inner h1 {
-    margin-bottom: 0;
+  #footer .col {
+    float: none;
+    display: block;
+    width: 100%;
   }
 
-  p.lead {
-    display: none;
+  #footer ul li {
+    text-align:left;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .masthead-inner h1 {
+    font-size: 35px;
+  }
+
+  .content {
+    padding-top: 20px;
   }
 
   .colophon {
@@ -174,32 +173,15 @@ p.lead {
     margin: 0 0 0 0;
     font-size: 15px;
   }
+}
 
-  .content {
-    margin-top: 0;
+@media (max-width: 989px) {
+
+  .masthead-inner h1 {
+    font-size: 28px;
   }
 
-  #footer .col {
-    float: none;
-    display: block;
-    width: 100%;
-  }
-
-  #footer ul {
-    list-style-type: none;
-    margin-bottom: 20px;
-    padding: 0;
-  }
-
-  #footer ul li {
-    display: inline-block;
-  }
-
-  #footer ul li::after {
-    content:" \00bb";
-  }
-
-  #footer ul li:last-of-type::after {
-    content:"";
+  p.lead {
+    font-size: 15px;
   }
 }
