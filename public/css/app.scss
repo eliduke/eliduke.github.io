@@ -206,3 +206,9 @@ p.lead {
     font-size: 15px;
   }
 }
+
+@media (min-width: 1400px) {
+  .masthead {
+    padding: 0 30px;
+  }
+}
