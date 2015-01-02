@@ -48,6 +48,20 @@ img {
   height:auto;
 }
 
+.videowrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videowrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
 .content {
   font-weight: 100;
   max-width: 1170px;
@@ -68,6 +82,16 @@ img {
 
 #home {
   margin-top: 15px;
+}
+
+#videography {
+  .video {
+    margin-bottom: 40px;
+
+    p{
+      margin-top: 20px;
+    }
+  }
 }
 
 #footer {
