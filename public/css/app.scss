@@ -88,8 +88,8 @@ img {
   .video {
     margin-bottom: 40px;
 
-    p{
-      margin-top: 20px;
+    h2 {
+      font-size: 25px;
     }
   }
 }
@@ -220,8 +220,10 @@ p.lead {
   }
 
   #videography {
-    h2 {
-      font-size: 20px;
+    .half {
+      width: 100%;
+      display: block;
+      float: none;
     }
   }
 }
