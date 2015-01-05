@@ -194,6 +194,26 @@ p.lead {
     }
   }
 
+  h2 {
+    color: $color;
+  }
+
+  #adventures {
+    padding:1px 20px;
+    background: #eee;
+    border-radius: 5px;
+
+    h3 {
+      margin: 10px 0 5px 0;
+    }
+
+    img.active {
+      -webkit-filter: grayscale(1);
+      -moz-filter: grayscale(1);
+      filter: grayscale(1);
+    }
+  }
+
 }
 
 /*  MEDIA MEDIA MEDIA  */
@@ -236,12 +256,22 @@ p.lead {
   #videography .video h2 {
     font-size: 20px;
   }
+
+  #adventures .half {
+    float: none;
+    display: block;
+    width: 100%;
+  }
 }
 
 @media (max-width: 600px) {
 
   #photography .row {
     display: none;
+  }
+
+  #adventures .row {
+    display: inline;
   }
 
   #photography .mobile-warning {
@@ -257,5 +287,4 @@ p.lead {
     display: block;
     width: 100%;
   }
-
 }

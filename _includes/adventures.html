@@ -1,0 +1,27 @@
+<h2>Choose Your Own Adventure</h2>
+
+<div id="adventures">
+
+  {% for adventure in site.photography %}
+
+    {% cycle '<div class="row">', nil %}
+
+    <div class="adventure half">
+      {% if page.url == adventure.url %}
+        <h3>{{adventure.title}}</h3>
+        <img class="active" src="http://dnvbp7spvivuw.cloudfront.net/photography/{{adventure.img}}.jpg" alt="">
+      {% else %}
+        <a href="{{adventure.url}}">
+          <h3>{{adventure.title}}</h3>
+          <img src="http://dnvbp7spvivuw.cloudfront.net/photography/{{adventure.img}}.jpg" alt="">
+        </a>
+      {% endif %}
+    </div>
+
+    {% cycle nil, '</div>' %}
+
+  {% endfor %}
+
+  <div style="clear:both"></div>
+
+</div>
