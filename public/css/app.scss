@@ -10,9 +10,7 @@ $color: #EA2869;
 #9542C2
 #EA2869
 #01ACB4
-#3C2718
 #163B75
-#B22606
 */
 
 /* LINK STYLEZ */
@@ -60,7 +58,7 @@ img {
 
 .masthead {
   background-color: $color;
-  background-image: url(http://www.transparenttextures.com/patterns/gplay.png);
+  background-image: url(/public/background.png);
 }
 
 .cols {
@@ -319,7 +317,7 @@ p.lead {
     .col:first-of-type {
       float: none;
       width: 100%;
-      background-color: #999;
+      background-color: $color;
       border-radius: 5px;
       color: #eee;
       padding: 1px;
