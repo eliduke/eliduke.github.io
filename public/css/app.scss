@@ -195,23 +195,28 @@ p.lead {
   }
 
   h2 {
+    margin: -20px 0 10px 0;
     color: $color;
   }
 
   #adventures {
-    padding:1px 20px;
-    background: #eee;
-    border-radius: 5px;
 
     h3 {
       margin: 10px 0 5px 0;
     }
 
-    img.active {
+    a img, img.active {
       -webkit-filter: grayscale(1);
       -moz-filter: grayscale(1);
       filter: grayscale(1);
     }
+
+    a img:hover {
+      -webkit-filter: grayscale(0);
+      -moz-filter: grayscale(0);
+      filter: grayscale(0);
+    }
+
   }
 
 }
@@ -237,6 +242,10 @@ p.lead {
   #videography .video h2 {
     font-size: 25px;
   }
+
+  #photography h2 {
+    font-size: 35px;
+  }
 }
 
 @media (max-width: 767px) {
@@ -257,6 +266,10 @@ p.lead {
     font-size: 20px;
   }
 
+  #photography h2 {
+    font-size: 30px;
+  }
+
   #adventures .half {
     float: none;
     display: block;
@@ -274,8 +287,13 @@ p.lead {
     display: inline;
   }
 
-  #photography .mobile-warning {
-    display: block;
+  #photography {
+    h2 {
+      font-size: 25px;
+    }
+    .mobile-warning {
+      display: block;
+    }
   }
 
   #videography .video h2 {
