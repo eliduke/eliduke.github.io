@@ -58,7 +58,6 @@ img {
 
 .masthead {
   background-color: $color;
-  //background-image: url(http://www.transparenttextures.com/patterns/bright-squares.png);
   background-image: url(/public/background.png);
 }
 
@@ -319,9 +318,11 @@ p.lead {
       float: none;
       width: 100%;
       background-color: $color;
+      background-image: url(/public/background.png);
       border-radius: 5px;
       color: #eee;
       padding: 1px;
+      font-weight: bold;
     }
 
     .col ul li, .col:first-of-type ul li {
