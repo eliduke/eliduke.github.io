@@ -2,6 +2,7 @@
 ---
 
 $color: #EA2869;
+$background: url(/public/background.png);
 
 /*
 #4774A6
@@ -16,7 +17,7 @@ $color: #EA2869;
 /* LINK STYLEZ */
 
 a:hover {
-  text-decoration:none;
+  text-decoration: none;
   color: $color;
 }
 
@@ -58,7 +59,7 @@ img {
 
 .masthead {
   background-color: $color;
-  background-image: url(/public/background.png);
+  background-image: $background;
 }
 
 .cols {
@@ -220,6 +221,14 @@ p.lead {
 
 }
 
+#about {
+  h3 {
+    color: $color;
+    margin-top: 40px;
+  }
+}
+
+
 /*  MEDIA MEDIA MEDIA  */
 
 @media (min-width: 1400px) {
@@ -268,12 +277,6 @@ p.lead {
   #photography h2 {
     font-size: 30px;
   }
-
-  #adventures .half {
-    float: none;
-    display: block;
-    width: 100%;
-  }
 }
 
 @media (max-width: 600px) {
@@ -293,6 +296,11 @@ p.lead {
     .mobile-warning {
       display: block;
     }
+    #adventures .half {
+      float: none;
+      display: block;
+      width: 100%;
+    }
   }
 
   #videography .video h2 {
@@ -300,6 +308,12 @@ p.lead {
   }
 
   #stickers .half {
+    float: none;
+    display: block;
+    width: 100%;
+  }
+
+  #about .half {
     float: none;
     display: block;
     width: 100%;
@@ -318,7 +332,7 @@ p.lead {
       float: none;
       width: 100%;
       background-color: $color;
-      background-image: url(/public/background.png);
+      background-image: $background;
       border-radius: 5px;
       color: #eee;
       padding: 1px;
