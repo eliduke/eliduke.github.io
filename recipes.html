@@ -7,24 +7,12 @@ title: Recipes
 
 	<h1 class="page-title">Recipes</h1>
 
-	<a href="/recipes/kale-salad">
-		<h2>Kale Salad</h2>
-		<img src="{{site.assets}}/recipes/kale-salad.jpg" title="Kale Salad">
+  {% for recipe in site.recipes %}
+
+	<a href="{{recipe.url}}">
+		<h2>{{recipe.name}}</h2>
+		<img src="{{site.assets}}/recipes/{{recipe.slug}}.jpg" title="{{recipe.title}}">
 	</a>
 
-	<a href="/recipes/hummus">
-		<h2>Hummus</h2>
-		<img src="{{site.assets}}/recipes/hummus.jpg" title="Hummus">
-	</a>
-
-	<a href="/recipes/vegan-mac-and-cheese">
-		<h2>Mac &amp; Cheese</h2>
-		<img src="{{site.assets}}/recipes/vegan-mac-and-cheese.jpg" title="Vegan Mac &amp; Cheese">
-	</a>
-
-	<a href="/recipes/wacky-cake">
-		<h2>Wacky Cake</h2>
-		<img src="{{site.assets}}/recipes/wacky-cake.jpg" title="Wacky Cake">
-	</a>
-
+  {% endfor %}
 </div>

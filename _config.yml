@@ -13,3 +13,6 @@ collections:
   photography:
     output: true
     permalink: /photography/:path/
+  recipes:
+    output: true
+    permalink: /recipes/:path/
