@@ -4,7 +4,7 @@ title: A very long email from Louis C.K.
 subtitle: I am on Louis C.K.'s mailing list. He sends an email once every couple months and they are always such a pleasure to read. They are always straight out of his brain, off the cuff, interesting, and pretty hilarious. The most recent email is "very long" and completely worth the read. It goes way back to the beginning of his adventures as a standup comedian and makes me appreciate him as a performer even more. Nice job, Louis. Keep up the good work.
 ---
 
-I am on Louis C.K.'s mailing list. He sends an email once every couple months and they are always such a pleasure to read. They are always straight out of his brain, off the cuff, interesting, and pretty hilarious. The most recent email is a "very long" and completely worth the read. It goes way back to the beginning of his adventures as a standup comedian and makes me appreciate him as a performer even more. Nice job, Louis. Keep up the good work.
+I am on Louis C.K.'s mailing list. He sends an email once every couple months and they are always such a pleasure to read. They are always straight out of his brain, off the cuff, interesting, and pretty hilarious. The most recent email is "very long" and completely worth the read. It goes way back to the beginning of his adventures as a standup comedian and makes me appreciate him as a performer even more. Nice job, Louis. Keep up the good work.
 
 * * *
 
