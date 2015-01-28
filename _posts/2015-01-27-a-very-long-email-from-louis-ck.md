@@ -8,7 +8,7 @@ I am on Louis C.K.'s mailing list. He sends an email once every couple months an
 
 Hello.  So below are my messy thoughts about my new special "Louis CK live at the Comedy Store" available for 5 dollars, all over the world.
 
-https://louisck.net/purchase/live-at-the-comedy-store
+[https://louisck.net/purchase/live-at-the-comedy-store]
 
 So this is my sixth hour-long standup special.  The truth is, I really love making these.  I skipped doing one last year and I missed it. This one is different from the recent others.  For one thing, it was shot in a nightclub instead of a theater.  I love doing the theater shows.  When I was a kid, my favorite thing in the world was Richard Pryor's concert films.  The idea of being a comedian and doing a "concert" was a real goal for me.  Performing in a theater expands your material and opens you up as a performer.  The pressure of playing to thousands of people, I found, always makes you better.  And every concert hall I've played has made me feel like I'm getting a whiff of that city or town's history.  The whole thing can be very exhilarating.
 
