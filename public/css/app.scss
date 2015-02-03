@@ -185,8 +185,15 @@ p.lead {
     margin: 20px 0 40px 0;
     padding: 20px;
     border: 10px solid #eee;
-    background: red;
+    background-color: $color;
+    background-image: $background;
     color: white;
+    font-weight: bold;
+
+    h3 {
+      margin: 0 0 5px 0;
+      padding: 0;
+    }
 
     p {
       margin: 0;
