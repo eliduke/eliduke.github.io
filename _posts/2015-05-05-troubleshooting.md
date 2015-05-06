@@ -4,7 +4,7 @@ title: Troubleshooting
 image: "http://assets.eliduke.com/blog/troubleshooting.jpg"
 ---
 
-I was cleaning, and re-arranging some funiture this evening. During that process, I had a problem. It was pretty minor in the grand scheme of things, but it completely stopped me in my tracks...
+I was cleaning and re-arranging some funiture this evening. During that process, I had a problem. It was pretty minor in the grand scheme of things, but it completely stopped me in my tracks...
 
 Let me start from the beginning: I was cleaning my lamps. For one of the lamps in particular, I had to remove the bulb, unscrew this weird plastic washer thing, and *then* I could remove the lamp shade. I set the bulb and plastic washer on the table and then wiped down the lamp shade. When I grabbed the washer to screw it back into place, the bulb rolled off the table and landed on the carpet.
 
