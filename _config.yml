@@ -3,6 +3,7 @@ tagline:      ""
 description:  ""
 url:          http://www.eliduke.com
 assets:       http://assets.eliduke.com
+image:        http://assets.eliduke.com/layout/me-footer.jpg
 author:
   name:       'Eli Duke'
   email:      'elimduke@gmail.com'
