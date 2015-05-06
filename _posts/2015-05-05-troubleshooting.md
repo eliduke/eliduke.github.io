@@ -6,6 +6,8 @@ image: "http://assets.eliduke.com/blog/troubleshooting.jpg"
 
 I was cleaning and re-arranging some funiture this evening. During that process, I had a problem. It was pretty minor in the grand scheme of things, but it completely stopped me in my tracks...
 
+![Troubleshooting]({% if page.image %}{{ page.image }}{% endif %} "Troubleshooting")
+
 Let me start from the beginning: I was cleaning my lamps. For one of the lamps in particular, I had to remove the bulb, unscrew this weird plastic washer thing, and *then* I could remove the lamp shade. I set the bulb and plastic washer on the table and then wiped down the lamp shade. When I grabbed the washer to screw it back into place, the bulb rolled off the table and landed on the carpet.
 
 It didn't look broken in any way, so I put it back in the lamp, turned it on and nothing happened. Hmm. I guess I broke it? After just standing there with my mouth open for a while, I went to the bathroom and grabbed another fluorescent bulb from the shelf. That one didn't work either. I went back to the bathroom and unscrewed a working one from the vanity and gave it a shot. Still no luck. I had a *confirmed working* lamp just moments ago, and now I had nothing?
