@@ -6,9 +6,9 @@
   <meta property="og:site_name" content="eliduke.com"/>
   <meta property="og:url" content="{% if site.url %}{{ site.url }}{{ page.url }}{% endif %}" />
   <meta property="og:image" content="{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}" />
+  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% endif %}" />
 
   {% if page.path contains '_posts' %}
-  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% endif %}" />
   <meta property="og:type" content="article" />
   {% endif %}
 
