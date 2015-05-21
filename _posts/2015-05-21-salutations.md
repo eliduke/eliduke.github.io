@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Salutations
-image: "http://assets.eliduke.com/blog/salutations.jpg"
+image: "http://assets.eliduke.com/words/salutations.jpg"
 ---
 
 I'm a big fan of salutations, but sometimes I feel like an old man when I refuse to say "what's up?" to people I'm passing by. It's just never felt genuine. I know that deep down they don't really want to know *what is up* or *how it is going*, they are just saying what everyone says. The problem is that a salutation with a question mark at the end doesn't make a lick of sense.

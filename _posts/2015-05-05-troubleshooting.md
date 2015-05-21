@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Troubleshooting
-image: "http://assets.eliduke.com/blog/troubleshooting.jpg"
+image: "http://assets.eliduke.com/words/troubleshooting.jpg"
 ---
 
 I was cleaning and re-arranging some funiture this evening. During that process, I had a problem. It was pretty minor in the grand scheme of things, but it completely stopped me in my tracks...
