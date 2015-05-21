@@ -14,5 +14,5 @@ But we've all been there before:
 
 It's a salutation trying to be a conversation. Or is it a conversation trying to be salutation? Either way, it's **THE DUMBEST** word exchange in the world, and it happens **MILLIONS** of times every day. I can't even begin to imagine how much effort and energy is wasted on such terrible words. And the crazy thing is, we already have words that do the exact same thing while simultaneously leaving "how's it going?" for one of those times when you *literally* want to know how it is going.
 
-The next time you find yourself in one of those horrible situations, try tossing out a "hello" or maybe get crazy with a "howdy." If it's morning, see how "good morning" feels. If you like it, wait about 10 hours and then try "good evening" on for size! Or you can just go back to the old faithfuls, some of my favorites, like "hey there" and "hi".
+The next time you find yourself approaching another human and feel the need to say something, try tossing out a "hello" or maybe get crazy with a "howdy." If it's morning, see how "good morning" feels. If you like it, wait about 10 hours and then try "good evening" on for size! Or you can just go back to the old faithfuls, some of my favorites, like "hey there" and "hi".
 
