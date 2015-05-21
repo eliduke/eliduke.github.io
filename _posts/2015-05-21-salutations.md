@@ -8,7 +8,7 @@ I'm a big fan of salutations, but sometimes I feel like an old man when I refuse
 
 ![Troubleshooting]({% if page.image %}{{ page.image }}{% endif %} "Troubleshooting")
 
-But we've all been there before.
+But we've all been there before:
 
 > You're walking down the street or to the bathroom at work, and you pass an aquaintance or maybe a friend and you say "what's up?" and then they say "not much, how about you?" and then you might say "pretty good."
 
