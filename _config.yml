@@ -9,7 +9,7 @@ author:
   email:      'elimduke@gmail.com'
 markdown:     kramdown
 permalink:    pretty
-highlighter:  pygments
+highlighter:  rouge
 collections:
   photography:
     output: true
