@@ -1,7 +1,7 @@
 ---
 ---
 
-$color: #EA2869;
+$color: #e55783;
 $background: url(/public/background.png);
 
 /*
@@ -16,13 +16,17 @@ $background: url(/public/background.png);
 
 /* LINK STYLEZ */
 
-a:hover {
-  text-decoration: none;
+a {
   color: $color;
 }
 
+a:hover {
+  text-decoration: none;
+  color: #222;
+}
+
 .masthead a:hover {
-  color: #333;
+  color: #222;
 }
 
 .half {
@@ -77,29 +81,29 @@ img {
 
 .content h1 {
   margin-bottom: 20px;
-  color: $color;
+  color: #222;
 }
 
 #home {
   margin-top: 15px;
 
   .video-container {
-  	position: relative;
-  	padding-bottom: 56.25%;
-  	padding-top: 30px;
-  	margin-top: 30px;
-  	height: 0;
-  	overflow: hidden;
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    margin-top: 30px;
+    height: 0;
+    overflow: hidden;
   }
 
   .video-container iframe,
   .video-container object,
   .video-container embed {
-  	position: absolute;
-  	top: 0;
-  	left: 0;
-  	width: 100%;
-  	height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }
 }
 
@@ -141,17 +145,17 @@ blockquote p:after {
   }
 
   .videowrapper {
-  	position: relative;
-  	padding-bottom: 56.25%; /* 16:9 */
-  	padding-top: 25px;
-  	height: 0;
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 25px;
+    height: 0;
 
     iframe {
-    	position: absolute;
-    	top: 0;
-    	left: 0;
-    	width: 100%;
-    	height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
     }
   }
 
@@ -245,7 +249,7 @@ p.lead {
 
   h2 {
     margin: -20px 0 10px 0;
-    color: $color;
+    color: #222;
   }
 
   #adventures {
@@ -393,6 +397,15 @@ p.lead {
       color: #eee;
       padding: 1px;
       font-weight: bold;
+    }
+
+    .col:first-of-type a {
+      color: #222;
+    }
+
+    .col:first-of-type a:hover {
+      text-decoration: none;
+      color: #333;
     }
 
     .col ul li, .col:first-of-type ul li {

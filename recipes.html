@@ -12,10 +12,10 @@ excerpt: "This where I collect all of my most favorite recipes."
 
   {% for recipe in site.recipes %}
 
-  	<a href="{{recipe.url}}">
-  		<h2>{{recipe.name}}</h2>
-  		<img src="{{site.assets}}/recipes/{{recipe.slug}}.jpg" title="{{recipe.title}}">
-  	</a>
+    <a href="{{recipe.url}}">
+      <h2>{{recipe.name}}</h2>
+      <img src="{{site.assets}}/recipes/{{recipe.slug}}.jpg" title="{{recipe.title}}">
+    </a>
 
   {% endfor %}
 

@@ -4,7 +4,7 @@ title: A Man on Tinder
 image: "http://assets.eliduke.com/words/the-right-grip.jpg"
 ---
 
-I've never really understood what it means to "be a (heterosexual) man." There are physical qualities like being large, with big muscles and thick beard, but none of those really apply to me. There are personality traits like confindence and assertiveness, a general extrovertedness, which I think could apply to me. There are also certain romantic expectations of men, most notably that we are supposed to take charge and "make the move."
+I've never really understood what it means to "be a man." There are physical qualities like being large, with big muscles and thick beard, but none of those really apply to me. There are personality traits like confindence and assertiveness, a general extrovertedness, which I think could apply to me. There are also certain romantic expectations of men, most notably that we are supposed to take charge and "make the move."
 
 But, if I can be so bold, I like to consider myself somewhat of a modern man. I'm not afraid to appear feminine or show my emotions. I'm big movie cryer and pink is one of my favorite colors. I love to go dancing, wear cute clothes, and I have lots of female friends. Many of the people in my life would not be the least bit surprised if I turned out to be gay, but I assure you that I crave only pussy.
 
