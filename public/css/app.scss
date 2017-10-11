@@ -200,15 +200,39 @@ p.lead {
   font-size: 17px;
 }
 
-#resume ul {
-  list-style-type: none;
-  margin-bottom: 20px;
-  padding: 0;
-}
+#resume {
+  ul {
+    list-style-type: none;
+    margin-bottom: 20px;
+    padding: 0;
+  }
 
-#resume a {
-  color: $color;
-  text-decoration: none;
+  a {
+    color: $color;
+    text-decoration: none;
+  }
+
+  small {
+    display: block;
+  }
+
+  .job {
+    margin-bottom: 25px;
+
+    .time-frame {
+      float: right;
+      margin-top: -35px;
+      font-weight: 400;
+    }
+
+    .technologies {
+      font-weight: 400;
+    }
+  }
+
+  .job + .job {
+    border-top: 1px solid #eee;
+  }
 }
 
 #words #posts {
