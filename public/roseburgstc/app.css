@@ -31,6 +31,10 @@ p.main {
   font-size: 200%;
 }
 
+p.contact-info {
+  text-align: right;
+}
+
 .hammers p {
   margin-bottom: 30px;
 }
@@ -86,4 +90,10 @@ p.main {
   p.main {
     font-size: 150%;
   }
+
+  p.contact-info {
+    margin-top: 30px;
+    text-align: center;
+  }
+
 }
