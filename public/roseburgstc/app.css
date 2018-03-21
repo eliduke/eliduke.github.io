@@ -69,7 +69,7 @@ p.main {
 
 @media (max-width: 550px) {
   .navbar img {
-    width: 250px;
+    width: 100%;
     display: block;
     margin: 20px auto;
     float: none;
