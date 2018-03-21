@@ -68,6 +68,7 @@ p.contact-info {
 
 .navbar-brand {
   font-size: 300%;
+  letter-spacing: -2px;
   margin-top: 23px;
   font-family: "Copperplate", "Copperplate Gothic Light", "fantasy";
 }
