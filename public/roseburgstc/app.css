@@ -16,6 +16,7 @@ h1 {
   font-weight: bold;
   letter-spacing: -3px;
   margin: 0 0 20px 0;
+  font-size: 350%;
 }
 
 img {
@@ -104,6 +105,10 @@ p.contact-info {
 
   .navbar-header {
     display: none;
+  }
+
+  h1 {
+    font-size: 265%;
   }
 
   p {
