@@ -12,6 +12,9 @@ hr {
 }
 
 h1 {
+  font-family: "Copperplate", "Copperplate Gothic Light", "fantasy";
+  font-weight: bold;
+  letter-spacing: -3px;
   margin: 0 0 20px 0;
 }
 
@@ -40,11 +43,11 @@ a:hover {
 }
 
 p {
-  font-size: 130%;
+  font-size: 150%;
 }
 
 p.main {
-  font-size: 200%;
+  font-size: 250%;
 }
 
 p.contact-info {
@@ -64,8 +67,9 @@ p.contact-info {
 }
 
 .navbar-brand {
-  font-size: 200%;
-  margin-top: 20px;
+  font-size: 300%;
+  margin-top: 23px;
+  font-family: "Copperplate", "Copperplate Gothic Light", "fantasy";
 }
 
 .navbar-default .navbar-brand {
