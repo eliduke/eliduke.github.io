@@ -1,3 +1,89 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  background-color: #e9e9e9;
+  margin-bottom: 30px;
+}
+
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #dcdcdc;
+}
+
 h1 {
+  margin: 0 0 20px 0;
+}
+
+img {
+  margin: 10px 0 20px 0;
+}
+
+.footer img {
+  margin: 5px 0;
+}
+
+p {
+  font-size: 130%;
+}
+
+p.main {
+  font-size: 200%;
+}
+
+.hammers p {
+  margin-bottom: 30px;
+}
+
+.hammers img {
   margin-bottom: 10px;
+}
+
+.navbar-default {
+  background: #151515;
+}
+
+.navbar-brand {
+  font-size: 200%;
+  margin-top: 20px;
+}
+
+.navbar-default .navbar-brand {
+  color: #eee;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #ccc;
+}
+
+.navbar {
+  border: 0;
+  margin-bottom: 30px;
+}
+
+.navbar img {
+  width: 150px;
+  margin: 10px 0;
+  float: right;
+}
+
+@media (max-width: 550px) {
+  .navbar img {
+    width: 250px;
+    display: block;
+    margin: 20px auto;
+    float: none;
+  }
+
+  .navbar-header {
+    display: none;
+  }
+
+  p {
+    font-size: 110%;
+  }
+
+  p.main {
+    font-size: 150%;
+  }
 }
