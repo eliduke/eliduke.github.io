@@ -19,8 +19,24 @@ img {
   margin: 10px 0 20px 0;
 }
 
+a {
+  color: #000;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
 .footer img {
   margin: 5px 0;
+}
+
+.footer p {
+  margin-bottom: 30px;
 }
 
 p {
@@ -54,10 +70,12 @@ p.contact-info {
 
 .navbar-default .navbar-brand {
   color: #eee;
+  text-decoration: none;
 }
 
 .navbar-default .navbar-brand:hover {
-  color: #ccc;
+  color: #eee;
+  text-decoration: underline;
 }
 
 .navbar {
