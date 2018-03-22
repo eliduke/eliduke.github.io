@@ -70,16 +70,16 @@ p.contact-info {
 .navbar-brand {
   font-size: 300%;
   letter-spacing: -2px;
-  margin-top: 23px;
+  margin-top: 10px;
   font-family: "Copperplate", "Copperplate Gothic Light", "fantasy";
 }
 
-.navbar-default .navbar-brand {
+.navbar-default .navbar-brand, .navbar-header a {
   color: #eee;
   text-decoration: none;
 }
 
-.navbar-default .navbar-brand:hover {
+.navbar-default .navbar-brand:hover, .navbar-header a:hover {
   color: #eee;
   text-decoration: underline;
 }
@@ -99,12 +99,19 @@ p.contact-info {
   .navbar img {
     width: 100%;
     display: block;
-    margin: 20px auto;
+    margin: 20px auto 10px auto;
     float: none;
   }
 
-  .navbar-header {
+  .navbar-brand {
     display: none;
+  }
+
+  ul.nav-list {
+    text-align: center;
+    margin: 0 0 10px 0;
+    padding: 10px;
+    font-size: 120%;
   }
 
   h1 {
@@ -123,5 +130,4 @@ p.contact-info {
     margin-top: 30px;
     text-align: center;
   }
-
 }
