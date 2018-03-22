@@ -135,4 +135,8 @@ p.contact-info {
   .navbar img {
     display: none;
   }
+
+  .list-inline > li {
+    padding-bottom: 10px;
+  }
 }
