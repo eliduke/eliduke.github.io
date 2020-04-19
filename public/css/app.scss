@@ -85,6 +85,10 @@ img {
   color: #333;
 }
 
+p.lead {
+  font-size: 17px;
+}
+
 #home {
   margin-top: 15px;
 
@@ -108,7 +112,6 @@ img {
   }
 }
 
-/* Quotes */
 blockquote {
   padding: 5px 30px 5px 20px;
   margin: 15px 0;
@@ -123,7 +126,6 @@ blockquote {
   p:before { display: none }
   p:after { display: none }
 }
-
 
 #videography {
 
@@ -167,8 +169,7 @@ blockquote {
 
   img {
     margin-right: 20px;
-    width: 25%;
-    float: left;
+    width: 100%;
   }
 
   .cols {
@@ -192,10 +193,6 @@ blockquote {
       text-align:right;
     }
   }
-}
-
-p.lead {
-  font-size: 17px;
 }
 
 #resume {
@@ -230,6 +227,18 @@ p.lead {
 
   .job + .job {
     border-top: 1px solid #eee;
+  }
+}
+
+#recipes {
+  img {
+    margin-bottom: 40px;
+  }
+}
+
+#recipe {
+  ol {
+    margin-bottom: 40px;
   }
 }
 
@@ -303,8 +312,16 @@ p.lead {
   }
 }
 
-
 /*  MEDIA MEDIA MEDIA  */
+
+@media (min-width: 600px) {
+  #footer {
+    img {
+      float: left;
+      width: 30%;
+    }
+  }
+}
 
 @media (min-width: 1400px) {
   .masthead {
