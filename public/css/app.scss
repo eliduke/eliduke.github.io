@@ -4,18 +4,10 @@
 $color: #ED6495;
 $background: url(/public/background.png);
 
-/*
-#4774A6
-#313D4E
-#FA5416
-#9542C2
-#EA2869
-#E55783
-#01ACB4
-#163B75
-*/
-
-/* LINK STYLEZ */
+body {
+  font-size: 18px;
+  font-weight: 100;
+}
 
 a {
   color: $color;
@@ -30,35 +22,20 @@ a:hover {
   color: #333;
 }
 
-.half {
-  width: 49%;
-  float: left;
-}
-
-.row .half:first-of-type {
-  margin-right: 2%;
-}
-
-.third {
-  width: 32%;
-  float: left;
-}
-
-.row .third {
-  margin-right: 2%;
-}
-
-.row .third:last-of-type {
-  margin-right: 0;
+blockquote {
+  padding: 1px 30px 1px 20px;
+  margin: 25px 0;
+  border-left: 5px solid #eee;
+  color: #7a7a7a;
 }
 
 img {
   max-width:100%;
-  height:auto;
+  height: auto;
 }
 
 .content {
-  font-weight: 100;
+  margin-top: 15px;
   max-width: 1170px;
 }
 
@@ -67,64 +44,67 @@ img {
   background-image: $background;
 }
 
-.cols {
-  border: none;
-}
-
-.col {
-  float: left;
-  width: 33%;
-}
-
-.website {
-  margin-bottom: 50px;
-}
+p.lead { font-size: 17px }
 
 .content h1 {
   margin-bottom: 20px;
   color: #333;
 }
 
-p.lead {
-  font-size: 17px;
+.mobile-warning {
+  display: block;
+  margin: 20px 0 40px 0;
+  padding: 20px;
+  border: 10px solid #eee;
+  background-color: $color;
+  background-image: $background;
+  color: white;
+  font-weight: bold;
+
+  h3 {
+    margin: 0 0 5px 0;
+    padding: 0;
+  }
+
+  p {
+    margin: 0;
+    padding: 0;
+  }
 }
 
 #home {
-  margin-top: 15px;
+  .entries {
+    padding: 0;
+    list-style-type: none;
 
-  .video-container {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
-    margin-top: 30px;
-    height: 0;
-    overflow: hidden;
-  }
+    h3,img { margin-top: 0 }
 
-  .video-container iframe,
-  .video-container object,
-  .video-container embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    .entry {
+      p { margin-bottom: 0 }
+      p.first-entry-excerpt {
+        font-size: 23px;
+      }
+      p.more-text {
+        margin-top: 10px
+      }
+    }
+
+    .entry + .entry {
+      margin-top: 20px;
+      padding-top: 30px;
+      border-top: 1px solid #eee;
+    }
   }
 }
 
-blockquote {
-  padding: 5px 30px 5px 20px;
-  margin: 15px 0;
-  border-left: 5px solid #eee;
+#entry {
+  img { margin: 15px 0 }
 
-  p {
-    margin-bottom: 0;
-    color: #7a7a7a;
-    text-indent: 0;
+  p.date {
+    margin: 40px 0 0 0;
+    text-align: center;
+    color: #999;
   }
-
-  p:before { display: none }
-  p:after { display: none }
 }
 
 #videography {
@@ -167,20 +147,18 @@ blockquote {
   padding-top: 30px;
   margin-top: 50px;
 
-  img {
-    margin-right: 20px;
-    width: 100%;
-  }
-
-  .cols {
+  .links {
     border-radius: 5px;
-    margin: 35px 0 20px 0;
-    padding: 0 15px;
+    margin: 35px 0 0 0;
+    padding: 15px;
     background-color: #eee;
-  }
 
-  .col:first-of-type ul li {
-    text-align: left;
+    hr {
+      border: 0;
+      height: 1px;
+      margin: 20px 0;
+      background: #ccc;
+    }
   }
 
   ul {
@@ -188,10 +166,19 @@ blockquote {
     margin-bottom: 20px;
     padding: 0;
 
+    &.internal-links {
+      display: table;
+      margin: 20px auto 10px auto;
+    }
+
     li {
       font-size: 16px;
-      text-align:right;
+      text-align: right;
     }
+  }
+
+  .contact ul li {
+    text-align: left;
   }
 }
 
@@ -232,6 +219,7 @@ blockquote {
 
 #recipes {
   h2 {
+    margin-top: 0;
     font-size: 170%;
   }
 
@@ -250,40 +238,10 @@ blockquote {
   }
 }
 
-#words #posts {
-  list-style-type: none;
-  padding: 0;
-}
-
-#words #posts .post p {
-  margin: 0 0 20px 0;
-}
-
 #photography {
 
   .text-block {
     margin: 40px 0;
-  }
-
-  .mobile-warning {
-    display: none;
-    margin: 20px 0 40px 0;
-    padding: 20px;
-    border: 10px solid #eee;
-    background-color: $color;
-    background-image: $background;
-    color: white;
-    font-weight: bold;
-
-    h3 {
-      margin: 0 0 5px 0;
-      padding: 0;
-    }
-
-    p {
-      margin: 0;
-      padding: 0;
-    }
   }
 
   h2 {
@@ -292,7 +250,6 @@ blockquote {
   }
 
   #adventures {
-
     h3 {
       margin: 10px 0 5px 0;
     }
@@ -308,7 +265,6 @@ blockquote {
       -moz-filter: grayscale(0);
       filter: grayscale(0);
     }
-
   }
 
 }
@@ -320,25 +276,38 @@ blockquote {
   }
 }
 
-/*  MEDIA MEDIA MEDIA  */
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+}
 
-@media (min-width: 600px) {
-  #footer {
-    img {
-      float: left;
-      width: 30%;
-    }
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+  .mobile-warning {
+    display: none;
   }
 }
 
-@media (min-width: 1400px) {
-  .masthead {
-    padding: 0 30px;
-  }
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
 }
 
-@media (max-width: 989px) {
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+}
 
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+}
+
+
+/*==========  Non-Mobile First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
   .masthead-inner h1 {
     font-size: 28px;
   }
@@ -354,10 +323,35 @@ blockquote {
   #photography h2 {
     font-size: 35px;
   }
+
+  #footer {
+    .contact {
+      background-color: $color;
+      background-image: $background;
+      border-radius: 5px;
+      color: #eee;
+      padding: 15px 0 1px 0;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    .contact a {
+      color: #333;
+    }
+
+    .contact a:hover {
+      text-decoration: none;
+      color: #222;
+    }
+
+    .contact ul li, ul li {
+      text-align: center;
+    }
+  }
 }
 
-@media (max-width: 767px) {
-
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
   .content {
     padding-top: 20px;
   }
@@ -383,10 +377,9 @@ blockquote {
     display: block;
     width: 100%;
   }
-
 }
 
-@media (max-width: 600px) {
+@media only screen and (max-width: 600px) {
 
   #photography .row {
     display: none;
@@ -399,9 +392,6 @@ blockquote {
   #photography {
     h2 {
       font-size: 20px;
-    }
-    .mobile-warning {
-      display: block;
     }
     #adventures .half {
       float: none;
@@ -425,39 +415,12 @@ blockquote {
     display: block;
     width: 100%;
   }
+}
 
-  #footer {
-    .cols {
-      padding-top: 15px;
-    }
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+}
 
-    .col {
-      width: 50%;
-    }
-
-    .col:first-of-type {
-      float: none;
-      width: 100%;
-      background-color: $color;
-      background-image: $background;
-      border-radius: 5px;
-      color: #eee;
-      padding: 1px;
-      font-weight: bold;
-    }
-
-    .col:first-of-type a {
-      color: #333;
-    }
-
-    .col:first-of-type a:hover {
-      text-decoration: none;
-      color: #222;
-    }
-
-    .col ul li, .col:first-of-type ul li {
-      text-align: center;
-    }
-
-  }
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
 }

@@ -227,12 +227,12 @@ a:focus {
   background-color: #2a2a2a;
 }
 .masthead-inner {
-  padding: 20px;
+  padding: 20px 20px 1px 20px;
 }
 
 /* Masthead content */
 .masthead h1 {
-  margin-top: 0;
+  margin: 0 0 5px 0;
 }
 .masthead .lead {
   margin-bottom: 0;
@@ -243,7 +243,7 @@ a:focus {
 
 /* Footer area of masthead */
 .colophon {
-  margin-top: 20px;
+  margin-top: 5px;
   color: rgba(255,255,255,.5);
 }
 .colophon-links {
@@ -332,6 +332,7 @@ a:focus {
   display: block;
   margin: -10px 0 10px;
   color: #9a9a9a;
+  font-weight: normal;
 }
 
 /* Related posts */
