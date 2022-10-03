@@ -29,11 +29,11 @@ Oh, how I loved it!
 
 But I knew I had to take a break from it eventually. I saw too many folks down there do 10 or 15 or sometimes 30 seasons *in a row*, and some of them got very jaded. I wasn't going to let that happen to me, I was determined to keep this Antarctic love-affair going, so I needed to step away for a while before it went too far. I'm all about space.
 
-So, in 2013, I decided it was time to take a break and properly planted myself in Portland. I started playing music with some old friends, I bought a house with another one (who I also met in Antarctica), I started roller skating, I reconnected with friends and family that I hadn't seen enough of over the last 6 years, and I focused on a new career as a web developer.
+So, in 2013, I decided it was time to take a break and properly planted myself in Portland. I started playing music with some old friends, I bought a house with another one (who I also met in Antarctica), I started roller skating and rock climbing, I reconnected with friends and family that I hadn't seen enough of over the last 6 years, and I focused on a new career as a web developer.
 
 It was glorious!
 
-I was so glad that I made that move and pushed myself to learn and grow in that way, but I always had a feeling that I would return to the ice again someday. I don't remember exactly when this happened, but a few years later I came up with the idea to go back again after ten years away. My last season was 2012-2013 and all of a sudden it's 2022, so it's time to go back! This time around I will be a Carpenter Apprentice and I should be departing the first week of October. I am so very excited about it!
+I was so glad that I made that move and pushed myself to learn and grow in that way, but I always had a feeling that I would return to the ice again someday. I don't remember exactly when this happened, but a few years later I came up with the idea to go back again after ten years away. My last season was 2012-2013 and all of a sudden it's 2022, so it's time to go back! This time around I will be a Carpenter Apprentice and I will be departing on October 13th. I am so very excited about it!
 
 Oh, and thanks for making it this far! You will now be rewarded with:
 
