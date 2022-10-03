@@ -2,7 +2,7 @@
 layout: post
 image: "/images/posts/we-have-to-go-back.jpeg"
 title: I am going back to Antarctica
-excerpt: Before I ever planted any real roots in Portland, I planted roots in Antarctica. It's hard to imagine planting anything in Antarctica, but I got absolutely hooked on the seasonal life at McMurdo Station. I did five summer seasons, October to February, over the course of six years. Now all of a sudden it's been TEN YEARS since my last season on "the ice," so it's time to go back, baybeee!
+excerpt: Before I ever planted any real roots in Portland, I planted roots in Antarctica. It's hard to imagine planting anything in Antarctica, but I got absolutely hooked on the seasonal life at McMurdo Station. I did five summer seasons, October to February, over the course of six years. Now all of a sudden it's been TEN YEARS since my last season on 'the ice', so it's time to go back, baybeee!
 more_text: read more
 datetime: "2022-08-05 12:30:00"
 ---
