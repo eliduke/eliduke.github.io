@@ -16,10 +16,9 @@
   <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% endif %}">
 
   <!-- Twitter Meta Tags -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta property="twitter:domain" content="eliduke.com">
-  <meta property="twitter:url" content="{{ site.url }}{{ page.url }}">
-  <meta name="twitter:title" content="{% if page.title %}{{ page.title }} |{% endif %} Eli Duke">
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@eliduke" />
+  <meta name="twitter:title" content="{{ page.title }}">
   <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% endif %}">
   <meta name="twitter:image" content="{{ site.url }}{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}">
 
