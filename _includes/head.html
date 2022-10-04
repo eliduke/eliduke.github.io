@@ -7,6 +7,13 @@
   <title>{% if page.title %}{{ page.title }} |{% endif %} Eli Duke</title>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% endif %}">
 
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@eliduke" />
+  <meta name="twitter:title" content="{{ page.title }}">
+  <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% endif %}">
+  <meta name="twitter:image" content="{{ site.url }}{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}">
+
   <!-- Facebook Meta Tags -->
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
   <meta property="og:type" content="{% if page.url == '/' %}website{% else %}article{% endif %}">
@@ -14,13 +21,6 @@
 	<meta property="og:site_name" content="Eli Duke"/>
   <meta property="og:image" content="{{ site.url }}{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}">
   <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% endif %}">
-
-  <!-- Twitter Meta Tags -->
-  <meta name="twitter:card" content="summary" />
-  <meta name="twitter:site" content="@eliduke" />
-  <meta name="twitter:title" content="{{ page.title }}">
-  <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html }}{% endif %}">
-  <meta name="twitter:image" content="{{ site.url }}{% if page.image %}{{ page.image }}{% else %}{{ site.image }}{% endif %}">
 
   <script type="text/javascript">
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
