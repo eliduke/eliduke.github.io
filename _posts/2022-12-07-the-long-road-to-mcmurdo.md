@@ -90,7 +90,7 @@ After finally arriving in Christchurch, we had a couple days of zoom meetings an
 
 <div class="row">
   <div class="col-sm-6">
-    <img src="/images/posts/winding-road/17-dance-o-mat-light.jpg">
+    <img src="/images/posts/winding-road/17-dance-o-mat-light.JPG">
   </div>
   <div class="col-sm-6">
     <img src="/images/posts/winding-road/17-dance-o-mat-dark.jpg">
