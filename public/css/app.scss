@@ -9,6 +9,11 @@ $background: url(/public/background.png);
   margin-right:auto;
   margin-left:auto;
 
+  h2 {
+    margin-top: 5px;
+    text-align: center;
+  }
+
   img {
     margin-top: 25px;
     margin-bottom: 5px;
@@ -18,6 +23,10 @@ $background: url(/public/background.png);
     font-size: 85%;
     margin-top: 0;
     color: #666;
+  }
+
+  .mobile-warning {
+    p { color: white }
   }
 }
 
