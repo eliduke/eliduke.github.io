@@ -7,7 +7,18 @@ $background: url(/public/background.png);
 .panos-container{
   padding:15px;
   margin-right:auto;
-  margin-left:auto
+  margin-left:auto;
+
+  img {
+    margin-top: 25px;
+    margin-bottom: 5px;
+  }
+
+  p {
+    font-size: 85%;
+    margin-top: 0;
+    color: #666;
+  }
 }
 
 body {
