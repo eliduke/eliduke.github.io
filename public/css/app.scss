@@ -25,6 +25,11 @@ $background: url(/public/background.png);
     color: #666;
   }
 
+  p.intro {
+    font-size: 100%;
+    text-align: center;
+  }
+
   .mobile-warning {
     p { color: white }
   }
