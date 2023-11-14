@@ -6,46 +6,5 @@ excerpt: "Hey there! I'm Eli. I live in Portland, Oregon. I grew up in Indiana, 
 ---
 
 <div id="home">
-  <div class="entries">
-    {% for post in site.posts %}
-      {% if forloop.first == true %}
-        <div class="row entry">
-          <div class="col-sm-12">
-            <h1>{{ post.title }}</h1>
-            <a href="{{ post.url }}">
-              <img src="{{ post.image}}">
-            </a>
-
-            <p class="first-entry-excerpt">
-              {{ post.excerpt }}
-            </p>
-
-            <p class="more-text">
-              <a href="{{ post.url }}">
-                {{ post.more_text }} >>
-              </a>
-            </p>
-          </div>
-        </div>
-      {% else %}
-        <div class="row entry">
-          <div class="col-sm-6">
-            <a href="{{ post.url }}">
-              <img src="{{ post.image}}">
-            </a>
-          </div>
-          <div class="col-sm-6">
-            <p>
-              {{ post.excerpt }}
-            </p>
-            <p class="more-text">
-              <a href="{{ post.url }}">
-                {{ post.more_text }} >>
-              </a>
-            </p>
-          </div>
-        </div>
-      {% endif %}
-    {% endfor %}
-  </div>
+  <img src="{{site.assets}}/home/me-fryxell-jumping.jpg" alt="Eli Duke">
 </div>
