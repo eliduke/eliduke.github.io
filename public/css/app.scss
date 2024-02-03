@@ -4,37 +4,6 @@
 $color: #ED6495;
 $background: url(/public/background.png);
 
-.panos-container{
-  padding:15px;
-  margin-right:auto;
-  margin-left:auto;
-
-  h2 {
-    margin-top: 5px;
-    text-align: center;
-  }
-
-  img {
-    margin-top: 25px;
-    margin-bottom: 5px;
-  }
-
-  p {
-    font-size: 85%;
-    margin-top: 0;
-    color: #666;
-  }
-
-  p.intro {
-    font-size: 100%;
-    text-align: center;
-  }
-
-  .mobile-warning {
-    p { color: white }
-  }
-}
-
 body {
   font-size: 18px;
   font-weight: 100;
@@ -49,8 +18,15 @@ a:hover {
   color: #333;
 }
 
-.masthead a:hover {
-  color: #333;
+.masthead {
+  background-color: $color;
+  background-image: $background;
+
+  &a:hover {
+    color: #333;
+  }
+
+  .colophon { margin-top: 0}
 }
 
 blockquote {
@@ -68,11 +44,6 @@ img {
 .content {
   margin-top: 15px;
   max-width: 1170px;
-}
-
-.masthead {
-  background-color: $color;
-  background-image: $background;
 }
 
 p.lead { font-size: 17px }
@@ -106,6 +77,37 @@ p.inline-copy {
   p {
     margin: 0;
     padding: 0;
+  }
+}
+
+.panos-container{
+  padding:15px;
+  margin-right:auto;
+  margin-left:auto;
+
+  h2 {
+    margin-top: 5px;
+    text-align: center;
+  }
+
+  img {
+    margin-top: 25px;
+    margin-bottom: 5px;
+  }
+
+  p {
+    font-size: 85%;
+    margin-top: 0;
+    color: #666;
+  }
+
+  p.intro {
+    font-size: 100%;
+    text-align: center;
+  }
+
+  .mobile-warning {
+    p { color: white }
   }
 }
 
@@ -220,7 +222,6 @@ p.inline-copy {
 }
 
 #resume {
-
   h2 {
     padding-bottom: 3px;
     border-bottom: 3px solid #eee;
@@ -257,7 +258,7 @@ p.inline-copy {
 #recipes {
   h2 {
     margin-top: 0;
-    font-size: 170%;
+    font-size: 120%;
   }
 
   img {
@@ -326,6 +327,7 @@ p.inline-copy {
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
+  .masthead .colophon { margin-top: 10px }
 }
 
 /* Medium Devices, Desktops */
