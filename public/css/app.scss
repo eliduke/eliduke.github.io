@@ -26,7 +26,15 @@ a:hover {
     color: #333;
   }
 
-  .colophon { margin-top: 0}
+  .colophon {
+    margin-top: 0;
+
+    .colophon-links {
+      a.active {
+        color: #333;
+      }
+    }
+  }
 }
 
 blockquote {
@@ -328,6 +336,9 @@ p.inline-copy {
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
   .masthead .colophon { margin-top: 10px }
+  .colophon-links {
+    font-size: 35px;
+  }
 }
 
 /* Medium Devices, Desktops */

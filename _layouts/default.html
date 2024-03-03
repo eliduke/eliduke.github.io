@@ -1,3 +1,6 @@
+---
+---
+
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 
@@ -9,11 +12,11 @@
       <div class="masthead-inner">
         <div class="colophon">
           <ul class="colophon-links">
-            <li><a href="/">Home</a></li>
-            <li><a href="/photography">Photos</a></li>
-            <li><a href="/videography">Videos</a></li>
-            <li><a href="/recipes">Recipes</a></li>
-            <li><a href="/about">About</a></li>
+            <li><a {% if page.active == 'home' %}class="active"{% endif %} href="/">Home</a></li>
+            <li><a {% if page.active == 'photos' %}class="active"{% endif %} href="/photography">Photos</a></li>
+            <li><a {% if page.active == 'videos' %}class="active"{% endif %} href="/videography">Videos</a></li>
+            <li><a {% if page.active == 'recipes' %}class="active"{% endif %} href="/recipes">Recipes</a></li>
+            <li><a {% if page.active == 'about' %}class="active"{% endif %} href="/about">About</a></li>
           </ul>
         </div>
       </div>
