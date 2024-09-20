@@ -189,6 +189,21 @@ p.inline-copy {
 
 }
 
+#flickr-faves{
+  img {
+    display: inline;
+  }
+}
+
+#flome-house-party {
+  h3 {
+    margin-top: 0;
+  }
+  img {
+    margin: 30px 0;
+  }
+}
+
 #footer {
   border-top: 10px solid #eee;
   padding-top: 30px;
