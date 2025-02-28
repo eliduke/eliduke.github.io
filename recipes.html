@@ -14,7 +14,11 @@ active: recipes
 
     <a href="{{recipe.url}}">
       <h2>{{recipe.name}}</h2>
-      <img src="{{site.assets}}/recipes/{{recipe.slug}}.jpg" title="{{recipe.title}}">
+      {% if recipe.slug == "salsa" %}
+        <img src="/images/recipes/salsa.jpg" title="Salsa">
+      {% else %}
+        <img src="{{site.assets}}/recipes/{{recipe.slug}}.jpg" title="{{recipe.title}}">
+      {% endif %}
     </a>
 
   {% endfor %}
