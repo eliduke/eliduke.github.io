@@ -1,0 +1,25 @@
+---
+layout: default
+title: Fun
+image: "http://assets.eliduke.com/recipes/vegan-mac-and-cheese-4.jpg"
+excerpt: "Calendar of stuff I'm going to do. Feel free to join fun!"
+active: fun
+---
+
+<h1>Upcoming Fun Stuff</h1>
+
+<p>In an effort to distance myself from social media, here is an old-school list of upcoming fun stuff that I have on my calendar.<p>
+
+<hr />
+
+{% for post in site.fun %}
+  {% capture post_date %}{{ post.date | date: '%F' }}{% endcapture %}
+  {% capture current_date %}{{ site.time | date: '%F' }}{% endcapture %}
+  {% if post_date >= current_date %}
+    <div class="post">
+      <h3><a href="{{ post.link }}" target="_blank">{{ post.title }}</a></h3>
+      <span class="post-date">{{ post.time }} • {{ post.location }}</span>
+      <p>{{ post.description }}</p>
+    </div>
+  {% endif %}
+{% endfor %}
