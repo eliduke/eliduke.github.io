@@ -12,14 +12,14 @@ active: fun
 
 <hr />
 
-{% for post in site.fun %}
-  {% capture post_date %}{{ post.date | date: '%F' }}{% endcapture %}
+{% for fun in site.fun %}
+  {% capture fun_date %}{{ fun.date | date: '%F' }}{% endcapture %}
   {% capture current_date %}{{ site.time | date: '%F' }}{% endcapture %}
-  {% if post_date >= current_date %}
-    <div class="post">
-      <h3><a href="{{ post.link }}" target="_blank">{{ post.title }}</a></h3>
-      <span class="post-date">{{ post.time }} • {{ post.location }}</span>
-      <p>{{ post.description }}</p>
+  {% if fun_date >= current_date %}
+    <div class="mb-5">
+      <h3 class="mb-1"><a href="{{ fun.link }}" target="_blank">{{ fun.title }}</a></h3>
+      <p class="m-0 mb-2 text-secondary">{{ fun.time }} • {{ fun.location }}</p>
+      <p>{{ fun.description }}</p>
     </div>
   {% endif %}
 {% endfor %}

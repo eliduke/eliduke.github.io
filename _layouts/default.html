@@ -7,26 +7,24 @@
   {% include head.html %}
 
   <body>
-    <header class="masthead">
-      <div class="masthead-inner">
-        <div class="colophon">
-          <ul class="colophon-links">
-            <li><a {% if page.active == 'home' %}class="active"{% endif %} href="/">Home</a></li>
-            <li><a {% if page.active == 'photos' %}class="active"{% endif %} href="/photography">Photos</a></li>
-            <li><a {% if page.active == 'videos' %}class="active"{% endif %} href="/videography">Videos</a></li>
-            <li><a {% if page.active == 'recipes' %}class="active"{% endif %} href="/recipes">Recipes</a></li>
-            <li><a {% if page.active == 'about' %}class="active"{% endif %} href="/about">About</a></li>
-            <li><a {% if page.active == 'fun' %}class="active"{% endif %} href="/fun">Fun</a></li>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-2 nav-custom fs-2 fw-bold">
+          <ul class="nav flex-row flex-lg-column justify-content-center py-3 pt-lg-3">
+            <li><a href="/" class="p-3 {% if page.active == 'home' %} active{% endif %}">Home</a></li>
+            <li><a href="/photography" class="p-3 {% if page.active == 'photos' %} active{% endif %}">Photos</a></li>
+            <li><a href="/videography" class="p-3 {% if page.active == 'videos' %} active{% endif %}">Videos</a></li>
+            <li><a href="/recipes" class="p-3 {% if page.active == 'recipes' %} active{% endif %}">Recipes</a></li>
+            <li><a href="/about" class="p-3 {% if page.active == 'about' %} active{% endif %}">About</a></li>
+            <li><a href="/fun" class="p-3 {% if page.active == 'fun' %} active{% endif %}">Fun</a></li>
           </ul>
         </div>
+        <div class="col-lg-10 p-3 py-md-4 px-md-5">
+          {{ content }}
+
+          {% include footer.html %}
+        </div>
       </div>
-    </header>
-
-    <div class="content container">
-
-      {{ content }}
-
-      {% include footer.html %}
     </div>
     <script async src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
   </body>
