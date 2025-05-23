@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Pedalpalooza - Dazed and Confused
-time: June 12th at 7pm
+time: July 12th at 7pm
 location: Oregon Park at Picnic Tables
 link: https://www.shift2bikes.org/calendar/event-21645
 description: >
