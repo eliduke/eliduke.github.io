@@ -173,5 +173,5 @@ After many flight delays and four different hotels over the course of 10 days, w
 </div>
 
 <p class="inline-copy">
-It was absolutely wild walking off that plane again, feeling the cold wind on my face and filling my lungs, the mountains (The Royal Society Range), the volcano (Mt Erebus), and feeling all the energy from all the people who just realized that this shit is real.
+  It was absolutely wild walking off that plane again, feeling the cold wind on my face and filling my lungs, the mountains (The Royal Society Range), the volcano (Mt Erebus), and feeling all the energy from all the people who just realized that this shit is real.
 </p>
