@@ -219,6 +219,14 @@ h1 {
   img { margin: 30px 0 }
 }
 
+#palmer {
+  p { margin: 50px 0 }
+
+  @media (min-width: 768px) {
+    p { font-size: 130% }
+  }
+}
+
 #footer {
   border-top: 5px solid #eee;
   padding-top: 30px;
