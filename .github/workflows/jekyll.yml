@@ -8,7 +8,6 @@ name: Deploy Jekyll site to Pages
 
 on:
   workflow_dispatch:
-  schedule:
   push:
     branches: ["main"]
 
