@@ -5,7 +5,7 @@ layout: null
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title>Palmer Station Photo Journal / Eli Duke</title>
+  <title>Palmer Station Photo Journal - Eli Duke</title>
   <link href="https://eliduke.com/atom.xml" rel="self"/>
   <link href="https://eliduke.com/"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
@@ -21,7 +21,17 @@ layout: null
     <updated>2025-09-25T12:34:56-03:00</updated>
     <id>https://eliduke.com/palmer/01-punta-arenas-chile</id>
     <content type="html">
-      {{ "<p>Please click the entry link to see this post's content.</p>" | xml_escape }}
+      {{
+        "
+          <img src='https://eliduke.com/images/antarctica/palmer/01-punta-arenas/og-image.jpg'>
+          <p style='text-align: center'>
+            <a href='https://eliduke.com/palmer/01-punta-arenas-chile'>
+              Click here to see this post's content!
+            </a>
+          </p>
+        "
+        | xml_escape
+      }}
     </content>
   </entry>
 
@@ -31,7 +41,17 @@ layout: null
     <updated>2025-10-01T12:34:56-03:00</updated>
     <id>https://eliduke.com/palmer/02-the-drake-passage</id>
     <content type="html">
-      {{ "<p>Please click the entry link to see this post's content.</p>" | xml_escape }}
+      {{
+        "
+          <img src='https://eliduke.com/images/antarctica/palmer/02-the-drake-passage/og-image.jpg'>
+          <p style='text-align: center'>
+            <a href='https://eliduke.com/palmer/02-the-drake-passage'>
+              Click here to see this post's content!
+            </a>
+          </p>
+        "
+        | xml_escape
+      }}
     </content>
   </entry>
 
