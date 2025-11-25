@@ -5,24 +5,30 @@ layout: null
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
- <title>{{ site.title }}</title>
- <link href="{{ site.url }}/atom.xml" rel="self"/>
- <link href="{{ site.url }}/"/>
- <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>{{ site.url }}</id>
- <author>
-   <name>{{ site.author.name }}</name>
-   <email>{{ site.author.email }}</email>
- </author>
+  <title>Palmer Station Photo Journal / Eli Duke</title>
+  <link href="{{ site.url }}/atom.xml" rel="self"/>
+  <link href="{{ site.url }}/"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>{{ site.url }}</id>
+  <author>
+    <name>{{ site.author.name }}</name>
+    <email>{{ site.author.email }}</email>
+  </author>
 
- {% for post in site.posts %}
   <entry>
-    <title>{{ post.title }}</title>
-    <link href="{{ site.url }}{{ post.url }}"/>
-    <updated>{{ post.datetime | date_to_xmlschema }}</updated>
-    <id>{{ site.url }}{{ post.id }}</id>
-    <content type="html">{{ post.content | xml_escape }}</content>
+    <title>Palmer Station - 01 - Punta Arenas, Chile</title>
+    <link href="https://eliduke.com/palmer/01-punta-arenas-chile"/>
+    <updated>2025-09-30</updated>
+    <id>https://eliduke.com/palmer/01-punta-arenas-chile</id>
+    <content type="html"><p>Please click the entry link to see this post's content.</p></content>
   </entry>
- {% endfor %}
+
+  <entry>
+    <title>Palmer Station - 02 - The Drake Passage</title>
+    <link href="https://eliduke.com/palmer/02-the-drake-passage"/>
+    <updated>2025-10-05</updated>
+    <id>https://eliduke.com/palmer/02-the-drake-passage</id>
+    <content type="html"><p>Please click the entry link to see this post's content.</p></content>
+  </entry>
 
 </feed>
