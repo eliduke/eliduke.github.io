@@ -7,20 +7,15 @@ active: recipes
 ---
 
 <div id="recipes" class="page">
-
   <h1 class="visually-hidden">Recipes</h1>
-
-  {% for recipe in site.recipes %}
-
-    <a href="{{recipe.url}}">
-      <h2>{{recipe.name}}</h2>
-      {% if recipe.slug == "salsa" %}
-        <img src="/images/recipes/salsa.jpg" title="Salsa">
-      {% else %}
-        <img src="{{site.assets}}/recipes/{{recipe.slug}}.jpg" title="{{recipe.title}}">
-      {% endif %}
-    </a>
-
-  {% endfor %}
-
+  <div class="d-flex flex-wrap justify-content-around">
+    {% for recipe in site.recipes %}
+      <div style="width: 350px">
+        <a href="{{recipe.url}}">
+          <h2>{{recipe.name}}</h2>
+          <img src="/images/recipes/{{recipe.slug}}-0.jpg" title="{{recipe.title}}">
+        </a>
+      </div>
+    {% endfor %}
+  </div>
 </div>

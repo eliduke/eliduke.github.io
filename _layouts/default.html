@@ -9,18 +9,20 @@
   <body>
     <div class="container-fluid">
       <div class="row">
-        <div class="col-lg-2 nav-custom fs-2 fw-bold">
-          <ul class="nav flex-row flex-lg-column justify-content-center py-3 pt-lg-3">
+        <div class="col-sm-12 nav-custom fs-2 fw-bold">
+          <ul class="nav flex-row justify-content-center py-3 pt-lg-3">
             <li><a href="/" class="p-3 {% if page.active == 'home' %} active{% endif %}">Home</a></li>
             <li><a href="/palmer" class="p-3 {% if page.active == 'palmer' %} active{% endif %}">Palmer</a></li>
             <li><a href="/photography" class="p-3 {% if page.active == 'photos' %} active{% endif %}">Photos</a></li>
-            <li><a href="/videography" class="p-3 {% if page.active == 'videos' %} active{% endif %}">Videos</a></li>
+            <!--<li><a href="/videography" class="p-3 {% if page.active == 'videos' %} active{% endif %}">Videos</a></li>-->
             <li><a href="/recipes" class="p-3 {% if page.active == 'recipes' %} active{% endif %}">Recipes</a></li>
             <li><a href="/about" class="p-3 {% if page.active == 'about' %} active{% endif %}">About</a></li>
             <!--<li><a href="/fun" class="p-3 {% if page.active == 'fun' %} active{% endif %}">Fun</a></li>-->
           </ul>
         </div>
-        <div class="col-lg-10 p-3 py-md-4 px-md-5">
+      </div>
+      <div class="row">
+        <div class="col-xl-10 offset-xl-1 p-3 py-md-4 px-md-5">
           {{ content }}
 
           {% include footer.html %}
