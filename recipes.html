@@ -10,10 +10,10 @@ active: recipes
   <h1 class="visually-hidden">Recipes</h1>
   <div class="d-flex flex-wrap justify-content-around">
     {% for recipe in site.recipes %}
-      <div style="width: 350px">
+      <div style="width: 325px">
         <a href="{{recipe.url}}">
-          <h2>{{recipe.name}}</h2>
-          <img src="/images/recipes/{{recipe.slug}}-0.jpg" title="{{recipe.title}}">
+          <h3>{{recipe.name}}</h3>
+          <img class="mb-5" src="/images/recipes/{{recipe.slug}}-0.jpg" title="{{recipe.title}}">
         </a>
       </div>
     {% endfor %}
