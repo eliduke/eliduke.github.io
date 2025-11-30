@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 image: "/images/posts/winding-road/01-my-carry-on.jpg"
 title: The Long and Winding Road to McMurdo
 excerpt: It always takes a couple days to get to McMurdo Station, but sometimes it takes a couple weeks! I left my home on October 17th, heading west. The flights can be pretty brutal, not to mention all the layovers, and this year was extra special with 13 hours in Brisbane! Thankfully I met a new Antarctica friend on the flight, and we really made the most of it (but then we didn't get into Christchurch until 1am). In total it was about 21 hours of flight time and exactly 48 hours from the moment I left my house in Portland to the moment I walked into my hotel room in Christchurch. And that's just getting to christchurch!
