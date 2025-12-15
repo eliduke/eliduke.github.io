@@ -114,4 +114,44 @@ layout: null
       }}
     </content>
   </entry>
+
+  <entry>
+    <title>Palmer Station - 06 - GSAR Training</title>
+    <link href="https://eliduke.com/palmer/06-gsar-training"/>
+    <updated>2025-10-16T12:34:56-03:00</updated>
+    <id>https://eliduke.com/palmer/06-gsar-training</id>
+    <content type="html">
+      {{
+        "
+          <img src='https://eliduke.com/images/antarctica/palmer/06-gsar-training/og-image.jpg'>
+          <p style='text-align: center'>
+            <a href='https://eliduke.com/palmer/06-gsar-training'>
+              Click here to see this post's content!
+            </a>
+          </p>
+        "
+        | xml_escape
+      }}
+    </content>
+  </entry>
+
+  <entry>
+    <title>Palmer Station - 07 - Roller Skating</title>
+    <link href="https://eliduke.com/palmer/07-roller-skating"/>
+    <updated>2025-10-19T12:34:56-03:00</updated>
+    <id>https://eliduke.com/palmer/07-roller-skating</id>
+    <content type="html">
+      {{
+        "
+          <img src='https://eliduke.com/images/antarctica/palmer/07-roller-skating/og-image.jpg'>
+          <p style='text-align: center'>
+            <a href='https://eliduke.com/palmer/07-roller-skating'>
+              Click here to see this post's content!
+            </a>
+          </p>
+        "
+        | xml_escape
+      }}
+    </content>
+  </entry>
 </feed>
